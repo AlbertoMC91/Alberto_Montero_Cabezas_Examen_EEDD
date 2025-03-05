@@ -1,15 +1,30 @@
 package Biblioteca;
-
+/**
+ * Clase que representa un libro con título, autor y año de publicación.
+ * @author Alberto Montero Cabezas
+ * @version 05.03.2025
+ */
 public class Libro {
 
-    // TODO: Documentar estos atributos
+    /**
+     * Título del libro.
+     */
     private String titulo;
+    /**
+     * Autor del libro.
+     */
     private String autor;
+    /**
+     * Autor del libro.
+     */
     private int anioPublicacion;
 
-
-    // TODO: Documentar este método
-    // TODO: Testear este método
+    /**
+     * Constructor que inicializa un libro con los valores especificados.
+     * @param titulo Título del libro.
+     * @param autor Autor del libro.
+     * @param anioPublicacion Año de publicación del libro.
+     */
     public Libro(String titulo, String autor, int anioPublicacion) {
         this.titulo = titulo;
         this.autor = autor;
@@ -24,7 +39,10 @@ public class Libro {
         this.titulo = titulo;
     }
 
-    // TODO: Documentar este método
+    /**
+     * Obtiene el autor del libro.
+     * @return El autor del libro.
+     */
     public String getAutor() {
         return autor;
     }
@@ -33,7 +51,10 @@ public class Libro {
         this.autor = autor;
     }
 
-    // TODO: Documentar este método
+    /**
+     * Obtiene el año de publicación del libro.
+     * @return El año de publicación del libro.
+     */
     public int getAnioPublicacion() {
         return anioPublicacion;
     }
